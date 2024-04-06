@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+body {
+  background: hsl(235, 18%, 26%);
+  font-size: 16px;
+  font-weight: 400;
+}
+ul li {
+  padding: 0;
+  margin: 0;
+}
+.newcard {
+  max-width: 800px;
+  margin: 120px auto;
+  border-radius: 20px;
+  background: hsl(0, 0%, 100%);
+}
+.main-img {
+  width: 100%;
+  overflow: hidden;
+}
+.btn {
+  border-radius: 10px;
+  background: hsl(234, 29%, 20%);
+  color: #fff;
+}
+
+.btn:hover {
+  background: linear-gradient(60deg, rgb(167, 53, 72), hsl(4, 100%, 67%));
+  /* background: hsl(4, 100%, 67%); */
+}
+.back-card {
+  max-width: 400px;
+  margin: 120px auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 50px;
+}
